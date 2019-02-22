@@ -1,0 +1,16 @@
+{
+  "id": "wtfaila",
+  "name": "WTFAILA",
+  "description": "What the fuck am I looking at? Simple, temporary alternative to WAILA (or WAILLA likes with a real UI) for Fabric.",
+  "version": "${version}",
+  "side": "client",
+  "initializers": [
+    "net.hellomouse.wtfaila.init.BootstrapMod"
+  ],
+  "requires": {
+    "fabric": "*"
+  },
+  "mixins": {
+    "client": "wtfaila.client.json"
+  }
+}

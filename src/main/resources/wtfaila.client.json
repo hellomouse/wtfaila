@@ -1,0 +1,7 @@
+{
+  "package":"net.hellomouse.wtfaila.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "KeyPressMixin"
+  ]
+}
